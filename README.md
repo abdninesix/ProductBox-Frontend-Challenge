@@ -27,7 +27,7 @@ Backend: Node.js, Express
 
 Storage: Local storage (for cart), JSON file (for item data)
 
-Getting Started
+Instructions
 ---------------
 Install the package dependencies in `both` folders, client and server by running the command: `npm install`
 
