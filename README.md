@@ -33,6 +33,6 @@ Install the package dependencies in `both` folders, client and server by running
 
 Build the client side app by running the command: `npm run build`. This is important because the frontend will run through the backend.
 
-Once the dependancies are installed, you can start the `server` side application by running: `npm start`
+Now you can start the `server` side application by running: `npm start`
 
 Once the server is running, you can access the RandoStore by opening your browser to `http://localhost:3000`
