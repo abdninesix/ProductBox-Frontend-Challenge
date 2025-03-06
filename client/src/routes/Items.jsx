@@ -8,7 +8,7 @@ const Items = () => {
 
   const handleAddToCart = (item) => {
     addToCart(item);
-    alert(`Item added to cart!`);
+    alert(`${item.name} added to cart!`);
   };
 
   return (

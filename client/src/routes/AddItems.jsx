@@ -35,7 +35,7 @@ const AddItems = () => {
         <p className="text-2xl md:text-6xl">Put up items for sale</p>
 
         <form
-          className="flex flex-col p-4 justify-center gap-6 shadow-md"
+          className="flex flex-col p-4 justify-center bg-gray-200 gap-6 shadow-md"
           onSubmit={handleSubmit}
         >
           <div className="flex gap-6 justify-between">

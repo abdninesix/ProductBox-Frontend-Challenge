@@ -26,6 +26,8 @@ const Checkout = () => {
     setCart(getCartItems());
   };
 
+  const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
   return (
     <div>
       <Navbar />
@@ -69,6 +71,10 @@ const Checkout = () => {
           ) : (
             <p>Your cart is empty.</p>
           )}
+        </div>
+
+        <div className="mt-6 bg-gray-200 rounded-md shaodw-md p-4 text-xl font-bold">
+          Total: ${totalPrice.toFixed(2)}
         </div>
       </div>
     </div>

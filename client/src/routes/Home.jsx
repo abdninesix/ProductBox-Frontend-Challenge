@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="min-h-screen w-full flex flex-col gap-10 items-center justify-center p-8">
-        <div className="flex items-center justify-center rounded-full shadow-lg size-64 text-[150px]">
+        <div className="flex items-center justify-center rounded-full bg-gray-200 shadow-lg size-64 text-[150px]">
           <span>R.</span>
           <span className="text-blue-500">S</span>
         </div>

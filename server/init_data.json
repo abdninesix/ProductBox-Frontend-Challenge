@@ -37,13 +37,13 @@
       "id": 6
     },
     "7": {
-      "name": "Newitem2",
-      "price": "200",
-      "img": "/img",
-      "id": 7
+      "name": "NewItem2",
+      "price": "60",
+      "img": "/img/rack.jpg",
+      "id": 6
     },
     "8": {
-      "name": "Newitem",
+      "name": "Newitem3",
       "price": "200",
       "img": "/img/sticks.jpg",
       "id": 8
