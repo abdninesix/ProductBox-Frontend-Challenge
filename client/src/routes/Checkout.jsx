@@ -32,7 +32,7 @@ const Checkout = () => {
       <div className="min-h-screen w-full flex flex-col gap-10 items-center justify-center p-8">
         <p className="text-3xl md:text-6xl">Your items</p>
 
-        <div className="flex flex-wrap justify-between gap-6 mt-4">
+        <div className="flex flex-wrap gap-6 mt-4">
           {cart.length > 0 ? (
             cart.map((item) => (
               <div

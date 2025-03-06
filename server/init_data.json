@@ -35,6 +35,18 @@
       "price": "40",
       "img": "/img/sticks.jpg",
       "id": 6
+    },
+    "7": {
+      "name": "Newitem2",
+      "price": "200",
+      "img": "/img",
+      "id": 7
+    },
+    "8": {
+      "name": "Newitem",
+      "price": "200",
+      "img": "/img/sticks.jpg",
+      "id": 8
     }
   }
 }

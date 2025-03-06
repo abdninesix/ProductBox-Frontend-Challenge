@@ -4,8 +4,12 @@ import useFetchItems from "../lib/FetchHook";
 import { addToCart } from "../lib/Cart";
 
 const Items = () => {
-  
   const items = useFetchItems();
+
+  const handleAddToCart = (item) => {
+    addToCart(item);
+    alert(`Item added to cart!`);
+  };
 
   return (
     <div>
@@ -13,7 +17,7 @@ const Items = () => {
       <div className="min-h-screen w-full flex flex-col gap-10 items-center justify-center p-8">
         <p className="text-3xl md:text-6xl">Items for Sale</p>
 
-        <div className="flex flex-wrap justify-between gap-6 mt-4">
+        <div className="flex flex-wrap gap-6 mt-4">
           {items.length > 0 ? (
             items.map((item) => (
               <div
@@ -29,7 +33,7 @@ const Items = () => {
                 <p className="text-gray-700">Price: ${item.price}</p>
 
                 <button
-                  onClick={() => addToCart(item)}
+                  onClick={() => handleAddToCart(item)}
                   className="mt-2 bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700"
                 >
                   Add to cart
